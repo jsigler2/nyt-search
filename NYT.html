@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NYT Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="nyt-css.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+            <div class="jumbotron jumbotron-fluid col-md-6">
+                <div class="container">
+                    <h1 class="display-4">New York Times Search</h1>
+                </div>
+            </div>
+            <div class="col-md-3">&nbsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">&nbsp;</div>
+            <form class="col-md-6 gray-border">
+                <div class="form-title">
+                    <h2>Search Parameters</h2>
+                </div>
+
+                <div class="form-group">
+                <label for="exampleInputSearchTerm">Search Term</label>
+                <input type="email" class="form-control" id="exampleInputSearchTerm" aria-describedby="emailHelp" placeholder="Search Term">
+
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>5</option>
+                        <option>10</option>
+                        <option>20</option>
+                    </select>
+                </div>
+                        
+                <div class="form-group">
+                <label for="exampleInputSearchTerm">Start Year (Optional)</label>
+                <input type="email" class="form-control" id="exampleInputSearchTerm" aria-describedby="emailHelp" placeholder="Search Term">
+
+                <div class="form-group">
+                <label for="exampleInputSearchTerm">End Year (Optional)</label>
+                <input type="email" class="form-control" id="exampleInputSearchTerm" aria-describedby="emailHelp" placeholder="Search Term">
+                
+                    <br />
+                    <br />
+
+                <button type="submit" class="btn btn-primary">Search</button>
+                <button type="clear" class="btn btn-primary">Clear Results</button>
+
+            </form>
+            <div class="col-md-3">&nbsp;</div>
+        </div>
+    </div>
+</body>
+</html>
